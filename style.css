@@ -1,0 +1,105 @@
+*{
+    color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+body{
+    background-image: url('minimal-doodle-frame-background-social-story-highlight_53876-97970.avif');
+    background-size:68%;
+}
+p{
+    width: 300px;
+    height: 80px;
+    font-size: 6vmin;
+    color:black;
+    position: relative;
+    left: 41%;
+    margin: 0px;
+    margin-top: 60px;
+    background-color: transparent;
+}
+div{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 33%;
+    top: 5%;
+
+    
+}
+#box1{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    height: 105px;
+}
+#box{
+    height: 100px;
+    width: 100px;
+    background-color:#B88C9E;
+    border-color:whitesmoke;
+    border-width:2px;
+    display: flex;
+    margin:2px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 1.5vmin;
+    box-shadow: 2px 2px 1px rgb(92, 91, 91);
+    font-size:8vmin;
+    justify-content: center;
+    align-items: center;
+}
+.msg-container{
+    height: 200px;
+    width: 600px;
+    position:relative;
+    bottom: 200px;
+    left: 450px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 10px gray;
+    border-radius: 20px;
+    display:flex;
+    align-items:start;
+    justify-content: center;
+    font-size: 4vmin;
+    background-image: url('minimal-doodle-frame-background-social-story-highlight_53876-97970.avif');
+}
+#won{
+    background-color:transparent;
+    font-size: 4vmin;
+    position: relative;
+    bottom: 10px;
+    left: 50px;
+    width: 400px;
+    display: inline;
+
+}
+#newgame{
+    font-size: 10px;
+    width: 80px;
+    height: 50px;
+    position: relative;
+    top: 130px;
+    right: 32%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    border:.5px solid rgba(102, 29, 29, 0.662);
+    border-radius:8%;
+
+    
+}
+.hide{
+    display:none;
+}
+.restart{
+    font-size: 10px;
+    width: 80px;
+    height: 50px;
+    font-size: 20px;
+    border:.5px solid rgba(41, 29, 29, 0.662);
+    border-radius:8%;
+    position: relative;
+    left:46.59%;
+    top:70px;
+    background-color: pink;
+    box-shadow: 1px 1px 1px rgb(71, 40, 40);
+}
